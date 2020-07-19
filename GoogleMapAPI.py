@@ -21,7 +21,7 @@ params = {
 'q':'Los Angeles, CA, USA'
 }
 # url ='https://www.google.com/maps/embed/v1/place/json?'
-url ='https://www.google.com/maps/embed/v1/place?key=AIzaSyAE-tQ0-K_j78fDO-IFXHXbKso35013mcc&q=Eiffel+Tower,Paris+France'
+url ='https://www.google.com/maps/embed/v1/place?key=xxxxxxxxxxx&q=Eiffel+Tower,Paris+France'
 response = requests.get(url)
 print(response.status_code == 200)
 
